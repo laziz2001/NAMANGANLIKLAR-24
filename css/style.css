@@ -22,15 +22,55 @@ body {
     margin-right: auto;
 }
 
+a {
+}
+
+.btn {
+    padding: 13px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #7296ec;
+}
+
+
+/* Header */
 .site-header {
     background-color: #f6f6f6;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-h2 {
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
     display: inline;
     padding: 9px 6px 8px;
     border-radius: 7px;
     background-color: #fff;
+}
+
+.header-language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 3px;
+    background-color: #dce6ff;
+}
+
+.language-uz {
+    padding: 8px 7px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.language-ru {
+    padding: 11px 10px 10px 8px;
 }
