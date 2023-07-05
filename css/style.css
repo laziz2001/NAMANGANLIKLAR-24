@@ -8,9 +8,8 @@ body {
     color: #4a4b4c;
     font-size: 16px;
     font-family: 'Rubik', "Arial", sans-serif;
-    font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 .container {
@@ -23,6 +22,9 @@ body {
 }
 
 a {
+    text-decoration: none;
+    list-style: none;
+    color: #222;
 }
 
 .btn {
@@ -45,14 +47,33 @@ a {
 
 .header-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
 }
 
 .header-title {
-    display: inline;
+    display: inline-block;
+    margin-right: 35px;
     padding: 9px 6px 8px;
     border-radius: 7px;
+    background-color: #fff;
+}
+
+.header-money-one {
+    margin-right: 25px;
+}
+
+.header-money-two {
+    margin-right: 247px;
+}
+
+.header-poisk {
+    width: 275px;
+    margin-right: 25px;
+    padding: 15px 192px 13px 41px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
     background-color: #fff;
 }
 
@@ -60,8 +81,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 70px;
+    height: 36px;
+    margin-right: 25px;
+    padding: 3px 8px 3px 3px;
     border-radius: 30px;
-    padding: 3px;
+    font-size: 13px;
     background-color: #dce6ff;
 }
 
@@ -73,4 +98,84 @@ a {
 
 .language-ru {
     padding: 11px 10px 10px 8px;
+}
+
+/* Navigation */
+
+.body-nav {
+    background-color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #7f7f7f;
+    font-weight: 500;
+}
+
+/* Main section */
+/* Reklama */
+
+.reklama {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+/* Card section */
+
+.site-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 393px;
+    height: 382px;
+    margin-bottom: 10px;
+    padding: 20px 17px 15px;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+}
+
+.card-heading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 15px;
+}
+
+.card-img {
+    width: 359px;
+    height: 165px;
+    border-radius: 10px;
+}
+
+.card-bottom {
+    display: flex;
+    margin-top: 15px;
+}
+
+.card-bottom-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
 }
