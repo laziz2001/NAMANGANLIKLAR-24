@@ -33,7 +33,6 @@ body {
 a {
     text-decoration: none;
     list-style: none;
-    color: #222;
 }
 
 img {
@@ -75,9 +74,10 @@ img {
 }
 
 /* Header */
-.site-header {
+.site-header-top {
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 10px;
     background-color: #f6f6f6;
 }
 
@@ -160,73 +160,53 @@ img {
     background-color: #fff;
     color: #000;
 }
-.button {
-}
-.button-primary {
-}
 
-.header-poisk {
-    width: 275px;
-    margin-right: 25px;
-    padding: 15px 192px 13px 41px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 60px;
-    background-color: #fff;
-}
-
-.header-language {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70px;
-    height: 36px;
-    margin-right: 25px;
-    padding: 3px 8px 3px 3px;
-    border-radius: 30px;
-    font-size: 13px;
-    background-color: #dce6ff;
-}
-
-.language-uz {
-    padding: 8px 7px;
-    border-radius: 30px;
-    background-color: #fff;
-}
-
-.language-ru {
-    padding: 11px 10px 10px 8px;
-}
 
 /* Navigation */
 
-.body-nav {
-    background-color: #fff;
+.sitenav {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.nav-list {
+.sitenav-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-.list-item {
     list-style: none;
 }
 
-.nav-link {
-    font-size: 18px;
-    color: #7f7f7f;
-    font-weight: 500;
+.sitenav-item{
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
-/* Main section */
-/* Reklama */
+.sitenav-item:not(:last-child) {
+    margin-right: 34px;
+}
 
-.reklama {
-    margin-top: 40px;
+.sitenav-link {
+    display: block;
+    color: #7f7f7f;
+}
+
+.sitenav-link:hover {
+    color: #7296ec;
+}
+
+.sitenav-link:active {
+    opacity: 0.6;
+}
+
+/* SITE HEADER BANNER */
+
+.aside-header-banner-link {
+    display: flex;
     margin-bottom: 50px;
 }
 
