@@ -183,16 +183,13 @@ img {
 /* Navigation */
 
 .sitenav {
+    margin-bottom: 50px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-bottom: 1px solid #d1d1d1;
     font-size: 18px;
     font-weight: 500;
     line-height: normal;
-}
-
-.sitenav:not(:last-child) {
-    margin-bottom: 40px;
 }
 
 .sitenav-list {
